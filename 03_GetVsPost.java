@@ -17,15 +17,15 @@
 				Reading<input type="checkbox" name="m_hobby" value="reading">,
 				Travel<input type="checkbox" name="m_hobby" value="travel"><br>
 		residence : <select name="m_residence">
-						<option value="seoul" selected="selected">Seoul</option>
-						<option value="gyeonggi">Gyeonggi</option>
-						<option value="gyeongsang">Gyeongsang</option>
-						<option value="chungcheong">Chungcheong</option>
-						<option value="jeonra">Jeonra</option>
-						<option value="gangwon">Gangwon</option>
-						<option value="jeju">Jeju</option>
-					</select><br>
-					<input type="submit" value="sign up">
+				<option value="seoul" selected="selected">Seoul</option>
+				<option value="gyeonggi">Gyeonggi</option>
+				<option value="gyeongsang">Gyeongsang</option>
+				<option value="chungcheong">Chungcheong</option>
+				<option value="jeonra">Jeonra</option>
+				<option value="gangwon">Gangwon</option>
+				<option value="jeju">Jeju</option>
+			</select><br>
+		<input type="submit" value="sign up">
 	</form>
 </body>
 </html>
