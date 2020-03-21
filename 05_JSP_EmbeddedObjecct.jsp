@@ -122,7 +122,8 @@
 </head>
 <body>
 
-	<%! // jspEx.jsp에서 application객체에 setAttribute한 값을 담기 위한 변수들
+	<%!
+		// jspEx.jsp에서 application객체에 setAttribute한 값을 담기 위한 변수들
 		String connectedIP;
 		String connectedUser;
 	%>
