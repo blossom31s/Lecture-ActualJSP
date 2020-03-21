@@ -22,7 +22,7 @@
 		}
 	}
 %>
-<form action="ce" method="post">
+<form action="lc" method="post">
 	ID : <input type="text" name="memberID"><br>
 	PW : <input type="password" name="memberPW"><br>
 	<input type="submit" value="login">
@@ -58,7 +58,7 @@
 */
 
 /*
-// CookieEx.java
+// LoginConfirm.java
 
 package com.servlet;
 
@@ -72,8 +72,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/ce")
-public class CookieEx extends HttpServlet {
+@WebServlet("/lc")
+public class LoginConfirm extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
