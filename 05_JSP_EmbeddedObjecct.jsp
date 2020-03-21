@@ -70,7 +70,7 @@
 		String str; // errorPage 호출을 테스트하기 위한 변수
 	%>
 	
-	<!-- config 객체 -->
+	// config 객체
 	<%
 		adminID = config.getInitParameter("adminID");
 		adminPW = config.getInitParameter("adminPW");
@@ -78,7 +78,7 @@
 	<p>adminID : <%= adminID %></p>
 	<p>adminPW : <%= adminPW %></p>
 	
-	<!-- application 객체 -->
+	// application 객체
 	<%
 		imgDir = application.getInitParameter("imgDir");
 		testServerIP = application.getInitParameter("testServerIP");
@@ -92,14 +92,14 @@
 		application.setAttribute("connectedUser", "hong");
 	%>
 	
-	<!-- out 객체 -->
+	// out 객체
 	<%
 		out.print("<h1>Hello Java World!</h1>");
 		out.print("<h2>Hello JSP World!</h2>");
 		out.print("<h3>Hello Servlet World!</h3>");
 	%>
 	
-	<!-- exception 객체 -->
+	// exception 객체
 	<%
 		// out.print(str.toString()); // 초기화되지 않은 상태에서 toString()을 사용해서 error발생, errorPage를 호출하게 됨
 	%>
@@ -127,7 +127,7 @@
 		String connectedUser;
 	%>
 	
-	<!-- application 객체 -->
+	// application 객체
 	<%
 		connectedIP = (String)application.getAttribute("connectedIP");
 		connectedUser = (String)application.getAttribute("connectedUser");
